@@ -1,0 +1,58 @@
+# Python generated files and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# macOS Finder and filesystem metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+Icon?
+
+# PowerPoint presentation files
+*.ppt
+*.pptx
+*.pptm
+*.pps
+*.ppsx
+*.ppsm
+*.pot
+*.potx
+*.potm
+
+**/**.pdf
+AGENTS.md
+!AGENTS.md
+.serena/
+
+# Downloaded datasets and trained checkpoints
+data/
+checkpoints/
+graphify-out/cache/
+graphify-out/.graphify_python
+graphify-out/.graphify_root
+
+
+#./train_cifar10.sh --head-epochs 5 --finetune-epochs 10
+**/.claude/
